@@ -25,10 +25,6 @@ The project owner, who wants to play and test the game on their own Android phon
 
 The few pushes that move the vision forward, one `###` section per bet. An initiative cites a bet by its exact title.
 
-### Playable Wordle on Android
-
-Changes the repo from an empty scaffold into a Kotlin and Compose Android app that plays full games of Wordle. Each game picks a random answer from a bundled word list and checks guesses against a bundled list of valid words. The app has the grid, the on-screen keyboard, win and loss states that reveal the answer, and a new-game button. Why now: nothing exists yet, and this is the whole brief. Success: `./gradlew assembleDebug` produces an APK that installs on the owner's phone, where they can play a game to a win or a loss and start another one, all offline, with unit tests covering the scoring rules, repeated letters included.
-
 ## Non-goals
 
 **Daily word.** There is no shared daily puzzle or date-based answer. Every game gets a random word.

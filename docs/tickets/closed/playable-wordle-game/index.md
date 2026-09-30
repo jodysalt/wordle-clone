@@ -12,7 +12,7 @@ The owner builds a debug APK with `./gradlew assembleDebug`, sideloads it onto t
 - The repo has docs only: no Gradle project, no source, no wrapper. Everything in this ticket is new.
 - Toolchain on the machine: JDK 17 via `JAVA_HOME`, `ANDROID_HOME=/Users/jody/Library/Android/sdk` with platform `android-34` and build-tools `34.0.0`, Gradle 9.6 on `PATH`, emulator AVD `Medium_Phone`. The local Gradle cache already holds AGP `8.6.1`, Kotlin Gradle plugin `2.0.20` and the Gradle `8.7` distribution, so pinning those avoids new downloads.
 - Settled by `docs/vision.md` and the initiative: native Kotlin and Jetpack Compose, minSdk 26, target and compileSdk 34, game logic in plain Kotlin apart from the UI, word lists bundled in the APK, no network access, sideloaded debug build only.
-- Initiative: `docs/initiatives/open/playable-wordle-on-android.md`. Its success metrics are this ticket's acceptance criteria.
+- Initiative: `docs/initiatives/closed/playable-wordle-on-android.md`. Its success metrics are this ticket's acceptance criteria.
 
 # Scope
 In:
