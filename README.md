@@ -25,3 +25,7 @@ You need JDK 17 and the Android SDK (platform 34).
 ```
 
 To put it on a phone, run `adb install -r app/build/outputs/apk/debug/app-debug.apk`. You can also copy the APK to the phone and open it there, once you have allowed installs from unknown sources.
+
+## Licence
+
+MIT – see [LICENSE](LICENSE). The bundled word lists come from the public-domain ENABLE list; see `app/src/main/assets/WORDLISTS_NOTICE.md`.
