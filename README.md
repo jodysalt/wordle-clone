@@ -15,6 +15,8 @@ The skill took that brief through the spec-driven workflow with no human turns: 
 
 An offline Wordle-style game for Android, written in Kotlin and Jetpack Compose. Each game picks a random five-letter word from a bundled list, and you get six guesses. It has no daily word and no network access.
 
+<img src="docs/screenshot.jpg" alt="A won game: six guesses ending in ROYAL, with the coloured keyboard and a New game button" width="300">
+
 ## Build and run
 
 You need JDK 17 and the Android SDK (platform 34).
