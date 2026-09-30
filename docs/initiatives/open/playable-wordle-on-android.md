@@ -30,4 +30,4 @@ Check for a person:
 - Instrumented UI or Compose tests as a required gate. The game logic is covered by JVM unit tests, and the UI is checked on a device.
 
 ## Tickets
-- docs/tickets/open/playable-wordle-game/index.md
+- docs/tickets/closed/playable-wordle-game/index.md
